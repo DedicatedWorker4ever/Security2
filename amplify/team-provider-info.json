@@ -1,0 +1,30 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-messageapp2-staging-144913-authRole",
+      "UnauthRoleArn": "arn:aws:iam::851725292126:role/amplify-messageapp2-staging-144913-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::851725292126:role/amplify-messageapp2-staging-144913-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-messageapp2-staging-144913-deployment",
+      "UnauthRoleName": "amplify-messageapp2-staging-144913-unauthRole",
+      "StackName": "amplify-messageapp2-staging-144913",
+      "StackId": "arn:aws:cloudformation:eu-central-1:851725292126:stack/amplify-messageapp2-staging-144913/143a6e70-b7a3-11ee-8df6-068e3cb322eb",
+      "AmplifyAppId": "d25l8ulgp4th3g",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-messageapp2-staging-144913-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "MessageApp2": {}
+      },
+      "function": {
+        "MessageApp2PostConfirmation": {
+          "deploymentBucketName": "amplify-messageapp2-staging-144913-deployment",
+          "s3Key": "amplify-builds/MessageApp2PostConfirmation-6478662b6b53415a3555-build.zip"
+        }
+      },
+      "api": {
+        "MessageApp2": {}
+      }
+    }
+  }
+}
